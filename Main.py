@@ -36,7 +36,7 @@ def download_data_and_search():
             for row in my_list:
                   if row[0] == get_current_date() and row[6] == 'Poland':
 
-                      data =  'INFECTED:' + row[4] + ', DEAD:' + row[5]
+                      data =  'CASES:' + row[4] + ', DEADTHS:' + row[5]
                       return  data
 
 
